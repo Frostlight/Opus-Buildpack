@@ -1,4 +1,4 @@
-#Heroku buildpack: opus
+# Heroku buildpack: opus
 
 This is a Heroku buildpack for using lib opus in your project.
 
@@ -14,4 +14,6 @@ If it is an existing project, just do:
 
 ``` sh 
 $ heroku buildpacks:set https://github.com/frostlight/opus-buildpack
-``
+```
+
+The library files will be in "vendor/lib".
